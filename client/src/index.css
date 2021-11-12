@@ -1,0 +1,81 @@
+ 
+ /* header */
+  .site-layout-background {
+    background: #fff;
+  }
+
+  .ant-layout-header .logo {
+    float: left;
+    width: 180px;
+    height: 48px;
+    margin: 8px 12px 8px 0;
+    background: url('https://автозапчастидаром.рф/ckeditor_assets/pictures/100/content_totek.jpg') ;
+    -webkit-background-size: cover;        
+    -moz-background-size: cover;        
+    -o-background-size: cover;        
+    background-size: cover;
+  }
+
+  .ant-layout-header .ant-menu {
+    line-height: 65px;
+}
+
+/* login */
+
+#components-form-demo-normal-login .login-form {
+    max-width: 350px;
+  }
+  #components-form-demo-normal-login .login-form-forgot {
+    float: right;
+  }
+  #components-form-demo-normal-login .ant-col-rtl .login-form-forgot {
+    float: left;
+  }
+  #components-form-demo-normal-login .login-form-button {
+    width: 100%;
+  }
+
+
+/* loading */
+.loading{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: auto;
+}
+
+.loading div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: auto 0 0 auto;
+}
+/* style clesses */
+
+.ml-auto{
+    margin-left: auto !important;
+}
+
+/* display */
+.d-flex {
+    display: flex !important;
+}
+
+/* align-items */
+.align-items-center{
+    align-items: center !important;
+}
+
+/* justify-content */
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-end{
+    justify-content: flex-end;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+
